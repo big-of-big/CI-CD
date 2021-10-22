@@ -1,9 +1,11 @@
+# workflowにつける任意の名前
 name: hoge
 
 on: [push]
 
+# jobにつける任意の名前
 jobs:
-  run-shell-command:
+  run-shell-cmd:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
